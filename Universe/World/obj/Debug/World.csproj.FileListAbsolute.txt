@@ -1,0 +1,14 @@
+C:\Projets\Linda\Universe\World\bin\Debug\World.dll
+C:\Projets\Linda\Universe\World\bin\Debug\World.pdb
+C:\Projets\Linda\Universe\World\bin\Debug\World.pri
+C:\Projets\Linda\Universe\World\obj\Debug\World.dll
+C:\Projets\Linda\Universe\World\obj\Debug\World.pdb
+C:\Projets\Linda\Universe\World\obj\Debug\priconfig.xml.intermediate
+C:\Projets\Linda\Universe\World\obj\Debug\layout.resfiles.intermediate
+C:\Projets\Linda\Universe\World\obj\Debug\resources.resfiles.intermediate
+C:\Projets\Linda\Universe\World\obj\Debug\pri.resfiles.intermediate
+C:\Projets\Linda\Universe\World\obj\Debug\priconfig.xml
+C:\Projets\Linda\Universe\World\obj\Debug\layout.resfiles
+C:\Projets\Linda\Universe\World\obj\Debug\resources.resfiles
+C:\Projets\Linda\Universe\World\obj\Debug\pri.resfiles
+C:\Projets\Linda\Universe\World\obj\Debug\LanguageQualifiers.txt

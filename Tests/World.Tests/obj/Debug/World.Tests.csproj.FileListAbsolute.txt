@@ -1,0 +1,5 @@
+C:\Projets\Linda\Tests\World.Tests\bin\Debug\World.Tests.dll
+C:\Projets\Linda\Tests\World.Tests\bin\Debug\World.Tests.pdb
+C:\Projets\Linda\Tests\World.Tests\obj\Debug\World.Tests.csprojResolveAssemblyReference.cache
+C:\Projets\Linda\Tests\World.Tests\obj\Debug\World.Tests.dll
+C:\Projets\Linda\Tests\World.Tests\obj\Debug\World.Tests.pdb

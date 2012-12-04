@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="abb0ddbd-650c-4c71-be20-e465588bbc53" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="25ce08cc-28f1-4b53-86f5-b3e72466838f" name="Linda Engine" requiredNamespace="LindaEngine">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="84a0c4bd-0234-45c8-b3b8-7a6996eb99f1" direction="Forward">
+          <layerMoniker Id="b2789377-60b1-461c-bac4-aac752033d39" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="ac333339-1f43-451a-9e08-2e6c6dba66db" name="World" requiredNamespace="Linda.World">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="e03d1704-cbf0-419d-9520-d1b2e2f60f1e" direction="Forward">
+          <layerMoniker Id="25ce08cc-28f1-4b53-86f5-b3e72466838f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="df35fb99-7806-493b-85ad-4b02ca6c548e" name="Server" requiredNamespace="Linda.Server">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="41bc17a0-9987-4085-8acf-1fc2d0666592" direction="Forward">
+          <layerMoniker Id="ac333339-1f43-451a-9e08-2e6c6dba66db" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="c7e595f1-6de3-4a07-9bf0-754caac77ddf" direction="Forward">
+          <layerMoniker Id="5c13ea5d-59d9-470f-8f04-065280dc645b" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="24e0a846-20e3-4c28-8392-48d9e0bdb6df" name="Client" requiredNamespace="Linda.Client">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="c5d6ec5c-2f54-445a-81e9-88ca2649eff6" direction="Forward">
+          <layerMoniker Id="ac333339-1f43-451a-9e08-2e6c6dba66db" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="a7986e66-b234-4452-869f-1d8b81742db4" direction="Forward">
+          <layerMoniker Id="b2789377-60b1-461c-bac4-aac752033d39" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="b2789377-60b1-461c-bac4-aac752033d39" name="Monogame" />
+    <layer Id="5c13ea5d-59d9-470f-8f04-065280dc645b" name="World Data" requiredNamespace="Linda.Server">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="7a201056-e3a4-4ccd-bf43-bc4789d5196b" direction="Forward">
+          <layerMoniker Id="ac333339-1f43-451a-9e08-2e6c6dba66db" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+  </layers>
+</layerModel>
