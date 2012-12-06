@@ -1,1 +1,2 @@
-C:\Projets\Linda\WinRT\Experimental\Experimental.csproj;neutral
+C:\Projets\Linda\linda\Client\WinRT\Experimental\Experimental.csproj;neutral
+C:\Projets\Linda\linda\LindaEngine\MonoGame\MonoGame.csproj;neutral

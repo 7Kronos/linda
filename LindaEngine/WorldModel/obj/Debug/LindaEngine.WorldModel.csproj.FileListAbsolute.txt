@@ -3,3 +3,8 @@ C:\Projets\Linda\LindaEngine\WorldModel\bin\Debug\WorldModel.pdb
 C:\Projets\Linda\LindaEngine\WorldModel\obj\Debug\LindaEngine.WorldModel.csprojResolveAssemblyReference.cache
 C:\Projets\Linda\LindaEngine\WorldModel\obj\Debug\WorldModel.dll
 C:\Projets\Linda\LindaEngine\WorldModel\obj\Debug\WorldModel.pdb
+C:\Projets\Linda\linda\LindaEngine\WorldModel\bin\Debug\WorldModel.dll
+C:\Projets\Linda\linda\LindaEngine\WorldModel\bin\Debug\WorldModel.pdb
+C:\Projets\Linda\linda\LindaEngine\WorldModel\obj\Debug\LindaEngine.WorldModel.csprojResolveAssemblyReference.cache
+C:\Projets\Linda\linda\LindaEngine\WorldModel\obj\Debug\WorldModel.dll
+C:\Projets\Linda\linda\LindaEngine\WorldModel\obj\Debug\WorldModel.pdb

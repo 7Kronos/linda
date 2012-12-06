@@ -1,0 +1,5 @@
+C:\Projets\Linda\linda\LindaEngine\WorldModel\obj\Debug\WorldModel.csprojResolveAssemblyReference.cache
+C:\Projets\Linda\linda\LindaEngine\WorldModel\bin\Debug\LindaEngine.WorldModel.dll
+C:\Projets\Linda\linda\LindaEngine\WorldModel\bin\Debug\LindaEngine.WorldModel.pdb
+C:\Projets\Linda\linda\LindaEngine\WorldModel\obj\Debug\LindaEngine.WorldModel.dll
+C:\Projets\Linda\linda\LindaEngine\WorldModel\obj\Debug\LindaEngine.WorldModel.pdb

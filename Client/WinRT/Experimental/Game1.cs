@@ -1,5 +1,10 @@
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
 
 namespace Experimental
 {
@@ -10,6 +15,7 @@ namespace Experimental
     {
         GraphicsDeviceManager _graphics;
         SpriteBatch _spriteBatch;
+        DemoDrawing _demo;
 
         public Game1()
         {
@@ -26,7 +32,6 @@ namespace Experimental
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
             base.Initialize();
         }
 
@@ -39,6 +44,9 @@ namespace Experimental
             // Create a new SpriteBatch, which can be used to draw textures.
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             // TODO: use this.Content to load your game content here
+            _demo = new DemoDrawing(_spriteBatch, _graphics);
+            _demo.Initialize();
+            _demo.LoadContent();
         }
 
         /// <summary>
@@ -58,7 +66,7 @@ namespace Experimental
         protected override void Update(GameTime gameTime)
         {
             // TODO: Add your update logic here
-
+            _demo.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -71,7 +79,7 @@ namespace Experimental
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            _demo.Draw(gameTime);
             base.Draw(gameTime);
         }
     }

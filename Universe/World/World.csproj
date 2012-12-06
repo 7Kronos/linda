@@ -99,11 +99,18 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Content\Texture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Map\Tile.cs" />
     <Compile Include="Map\TileSet.cs" />
     <Compile Include="Map\WorldSpace.cs" />
     <Compile Include="Map\WorldSpaceCell.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LindaEngine\WorldModel\WorldModel.csproj">
+      <Project>{4057765d-0c2e-449d-9588-9895f38f1edb}</Project>
+      <Name>WorldModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
     <VisualStudioVersion>11.0</VisualStudioVersion>

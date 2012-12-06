@@ -26,3 +26,6 @@ C:\Projets\Linda\linda\Universe\World\obj\Debug\layout.resfiles
 C:\Projets\Linda\linda\Universe\World\obj\Debug\resources.resfiles
 C:\Projets\Linda\linda\Universe\World\obj\Debug\pri.resfiles
 C:\Projets\Linda\linda\Universe\World\obj\Debug\LanguageQualifiers.txt
+C:\Projets\Linda\linda\Universe\World\obj\Debug\World.csprojResolveAssemblyReference.cache
+C:\Projets\Linda\linda\Universe\World\bin\Debug\WorldModel.dll
+C:\Projets\Linda\linda\Universe\World\bin\Debug\WorldModel.pdb
