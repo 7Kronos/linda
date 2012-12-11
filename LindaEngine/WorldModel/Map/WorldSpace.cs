@@ -18,6 +18,7 @@ namespace LindaEngine.WorldModel.Map
 
         public int WorldWidth { get; private set; }
         public int WorldHeight { get; private set; }
+        public int WorldDepth { get; private set; }
 
 
         public WorldSpace AddCell(WorldSpaceCell cell)
@@ -34,6 +35,7 @@ namespace LindaEngine.WorldModel.Map
         {
             WorldWidth = width;
             WorldHeight = height;
+            WorldDepth = depth;
 
             for (int x = 0; x < width; x++)
                 for (int y = 0; y < height; y++)

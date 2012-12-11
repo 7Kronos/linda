@@ -131,7 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Components\MonoGameCameraController.cs" />
+    <Compile Include="Components\MonoGameKayboardHandler.cs" />
     <Compile Include="Components\MonoGameSpriteBatch.cs" />
+    <Compile Include="Extensions\ConversionExtensions.cs" />
     <Compile Include="MonoGameSubEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

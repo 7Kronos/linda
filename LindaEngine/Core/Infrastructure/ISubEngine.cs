@@ -9,5 +9,6 @@ namespace LindaEngine.Core.Infrastructure
     {
         ISpriteBatch SpriteBatch { get; }
         ICameraController Camera { get; }
+        IKeyboardHandler Keyboard { get; }
     }
 }

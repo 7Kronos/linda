@@ -136,6 +136,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\Fonts\Pericles6.xnb" />
     <None Include="Experimental_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +144,7 @@
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Testing\Dalle.png" />
     <Content Include="Assets\Testing\images\characters\0001.gif" />
     <Content Include="Assets\Testing\images\characters\0004.gif" />
     <Content Include="Assets\Testing\images\characters\0006.gif" />

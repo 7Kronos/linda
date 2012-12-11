@@ -33,12 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Content\Font.cs" />
     <Compile Include="Content\Texture.cs" />
     <Compile Include="Map\Tile.cs" />
     <Compile Include="Map\TileSet.cs" />
     <Compile Include="Map\WorldSpace.cs" />
     <Compile Include="Map\WorldSpaceCell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{a4af2bdb-4ae6-4f1a-9dda-e3f48bef927b}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using World.Content;
+using LindaEngine.WorldModel.Content;
 
 namespace LindaEngine.Core.Infrastructure
 {
@@ -15,10 +15,11 @@ namespace LindaEngine.Core.Infrastructure
         int HeightTileOffset { get; }
         int OddRowXOffset { get; }
         int TileHeight { get; }
-        float TileStepX { get; }
-        float TileStepY { get; }
+        int TileStepX { get; }
+        int TileStepY { get; }
         int TileWidth { get; }
 
+        TContent Load<TContent>(string contentKey);
         void LoadMap(WorldSpace world);
     }
 }

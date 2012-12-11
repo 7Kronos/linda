@@ -38,10 +38,12 @@
   <ItemGroup>
     <Compile Include="Butterfly.cs" />
     <Compile Include="Infrastructure\ICameraController.cs" />
+    <Compile Include="Infrastructure\IKeyboardHandler.cs" />
     <Compile Include="Infrastructure\ISpriteBatch.cs" />
     <Compile Include="Infrastructure\ISubEngine.cs" />
     <Compile Include="Infrastructure\IWorldLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Framework\Framework.csproj">

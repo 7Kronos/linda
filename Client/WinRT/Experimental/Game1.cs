@@ -20,7 +20,7 @@ namespace Experimental
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Content";
+            Content.RootDirectory = "Assets";
         }
 
         /// <summary>
@@ -44,9 +44,10 @@ namespace Experimental
             // Create a new SpriteBatch, which can be used to draw textures.
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             // TODO: use this.Content to load your game content here
-            _demo = new DemoDrawing(_spriteBatch, _graphics);
+            _demo = new DemoDrawing(_spriteBatch, _graphics, Content);
             _demo.Initialize();
             _demo.LoadContent();
+            
         }
 
         /// <summary>
