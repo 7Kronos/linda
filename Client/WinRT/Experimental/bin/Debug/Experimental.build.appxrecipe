@@ -91,6 +91,24 @@
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Fonts\Pericles6.xnb">
       <PackagePath>Assets\Fonts\Pericles6.xnb</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Fonts\Segoe.xnb">
+      <PackagePath>Assets\Fonts\Segoe.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Herbe1.png">
+      <PackagePath>Assets\Testing\Herbe1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Herbe2.png">
+      <PackagePath>Assets\Testing\Herbe2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Herbe3.png">
+      <PackagePath>Assets\Testing\Herbe3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Boue.png">
+      <PackagePath>Assets\Testing\Boue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\MixBoue.png">
+      <PackagePath>Assets\Testing\MixBoue.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

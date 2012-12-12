@@ -1,9 +1,14 @@
 Assets\Fonts\Pericles6.xnb
+Assets\Fonts\Segoe.xnb
 Assets\Logo.png
 Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
+Assets\Testing\Boue.png
 Assets\Testing\Dalle.png
+Assets\Testing\Herbe1.png
+Assets\Testing\Herbe2.png
+Assets\Testing\Herbe3.png
 Assets\Testing\images\characters\0001.gif
 Assets\Testing\images\characters\0004.gif
 Assets\Testing\images\characters\0006.gif
@@ -905,6 +910,7 @@ Assets\Testing\images\tiles\world\ground\0140.gif
 Assets\Testing\images\tiles\world\ground\0141.gif
 Assets\Testing\images\vector\encyclopedia_galactica.png
 Assets\Testing\images\vector\simerion_mobile.png
+Assets\Testing\MixBoue.png
 App.xaml
 Common\StandardStyles.xaml
 GamePage.xaml

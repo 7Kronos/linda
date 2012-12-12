@@ -14,19 +14,19 @@ namespace Experimental
     {
         ContentManager _contentManager;
 
-        //public int TileWidth { get { return 116; } }
-        //public int TileHeight { get { return 116; } }
-        //public int TileStepX { get { return 116; } }
-        //public int TileStepY { get { return 29; } }
-        //public int OddRowXOffset { get { return 58; } }
-        //public int HeightTileOffset { get { return 58; } }
+        public int TileWidth { get { return 92; } }
+        public int TileHeight { get { return 92; } }
+        public int TileStepX { get { return 92; } }
+        public int TileStepY { get { return 23; } }
+        public int OddRowXOffset { get { return 46; } }
+        public int HeightTileOffset { get { return 46; } }
 
-        public int TileWidth { get { return 82; } }
-        public int TileHeight { get { return 82; } }
-        public int TileStepX { get { return 82; } }
-        public int TileStepY { get { return 20; } }
-        public int OddRowXOffset { get { return 41; } }
-        public int HeightTileOffset { get { return 41; } }
+        //public int TileWidth { get { return 82; } }
+        //public int TileHeight { get { return 82; } }
+        //public int TileStepX { get { return 82; } }
+        //public int TileStepY { get { return 20; } }
+        //public int OddRowXOffset { get { return 41; } }
+        //public int HeightTileOffset { get { return 41; } }
 
         public int baseOffsetX { get { return 200; } }
         public int baseOffsetY { get { return 200; } }
@@ -44,7 +44,7 @@ namespace Experimental
             var depth = 3;
 
             world.BuildNew(width, height, depth);
-            var b = LoadContent<Texture2D>(@"Testing\images\tiles\world\ground", "0001.gif");
+            var b = LoadContent<Texture2D>(@"Testing", "Herbe3.png");
             var b2 = LoadContent<Texture2D>(@"Testing\images\tiles\buildings\inside\decor", "0065.gif");
             var b3 = LoadContent<Texture2D>(@"Testing\images\tiles\buildings\inside\ground", "0005.gif");
             var b4 = LoadContent<Texture2D>(@"Testing\images\tiles\change_zones", "0004-2.gif");

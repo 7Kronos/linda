@@ -28,7 +28,7 @@ namespace Experimental
 
             SysCore.SystemFont = new LindaEngine.WorldModel.Content.Font() { 
                 ContentName = "systemFont",
-                Content = contentManager.Load<SpriteFont>(@"Fonts\Pericles6")
+                Content = contentManager.Load<SpriteFont>(@"Fonts\Segoe")
             };
         }
 

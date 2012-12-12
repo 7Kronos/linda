@@ -16,29 +16,29 @@
     <AppXManifest Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-11T07:51:17.223</Modified>
+      <Modified>2012-12-11T20:09:45.414</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\bin\Debug\Experimental.exe">
       <PackagePath>Experimental.exe</PackagePath>
-      <Modified>2012-12-11T08:17:09.675</Modified>
+      <Modified>2012-12-11T21:26:57.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\bin\Debug\Experimental.pdb">
       <PackagePath>Experimental.pdb</PackagePath>
-      <Modified>2012-12-11T08:17:09.658</Modified>
+      <Modified>2012-12-11T21:26:57.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\LindaEngine\MonoGame\bin\Debug\LindaEngine.MonoGame.pdb">
       <PackagePath>LindaEngine.MonoGame.pdb</PackagePath>
-      <Modified>2012-12-11T08:17:08.699</Modified>
+      <Modified>2012-12-11T21:10:08.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\LindaEngine\Core\bin\Debug\LindaEngine.Core.dll">
       <PackagePath>LindaEngine.Core.dll</PackagePath>
-      <Modified>2012-12-11T08:17:08.268</Modified>
+      <Modified>2012-12-11T21:10:07.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\LindaEngine\MonoGame\bin\Debug\LindaEngine.MonoGame.dll">
       <PackagePath>LindaEngine.MonoGame.dll</PackagePath>
-      <Modified>2012-12-11T08:17:08.716</Modified>
+      <Modified>2012-12-11T21:10:08.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\LindaEngine\WorldModel\bin\Debug\LindaEngine.WorldModel.dll">
       <PackagePath>LindaEngine.WorldModel.dll</PackagePath>
@@ -82,7 +82,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\LindaEngine\Core\bin\Debug\LindaEngine.Core.pdb">
       <PackagePath>LindaEngine.Core.pdb</PackagePath>
-      <Modified>2012-12-11T08:17:08.250</Modified>
+      <Modified>2012-12-11T21:10:07.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\LindaEngine\WorldModel\bin\Debug\LindaEngine.WorldModel.pdb">
       <PackagePath>LindaEngine.WorldModel.pdb</PackagePath>
@@ -123,6 +123,30 @@
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Fonts\Pericles6.xnb">
       <PackagePath>Assets\Fonts\Pericles6.xnb</PackagePath>
       <Modified>2012-12-11T07:50:11.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Fonts\Segoe.xnb">
+      <PackagePath>Assets\Fonts\Segoe.xnb</PackagePath>
+      <Modified>2012-12-11T19:30:34.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Herbe1.png">
+      <PackagePath>Assets\Testing\Herbe1.png</PackagePath>
+      <Modified>2012-12-11T19:49:32.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Herbe2.png">
+      <PackagePath>Assets\Testing\Herbe2.png</PackagePath>
+      <Modified>2012-12-11T19:49:32.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Herbe3.png">
+      <PackagePath>Assets\Testing\Herbe3.png</PackagePath>
+      <Modified>2012-12-11T21:10:01.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\Boue.png">
+      <PackagePath>Assets\Testing\Boue.png</PackagePath>
+      <Modified>2012-12-11T19:49:32.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Testing\MixBoue.png">
+      <PackagePath>Assets\Testing\MixBoue.png</PackagePath>
+      <Modified>2012-12-11T19:49:32.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -3766,7 +3790,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projets\Linda\linda\Client\WinRT\Experimental\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-11T07:51:17.095</Modified>
+      <Modified>2012-12-11T20:09:45.198</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

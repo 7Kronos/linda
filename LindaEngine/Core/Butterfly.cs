@@ -46,7 +46,7 @@ namespace LindaEngine.Core
         /// <param name="gameTime"></param>
         public void Flutter(TimeSpan gameTime)
         {
-            showHelpers = _sub.Keyboard.IsKeyDown(Keys.Space);
+            showHelpers = _sub.Keyboard.IsKeyDown(Keys.X);
         }
 
         /// <summary>
@@ -78,11 +78,16 @@ namespace LindaEngine.Core
                 {
                     if (showHelpers)
                     {
-                        _sub.SpriteBatch.DrawString(SysCore.SystemFont, (xTileIndex + firstX).ToString() + ", " + (yTileIndex + firstY).ToString(),
+                        var s = new StringBuilder();
+
+                        //s.AppendLine((xTileIndex + firstX).ToString() + ", " + (yTileIndex + firstY).ToString());
+                        s.Append(((xTileIndex * _loader.TileStepX) - offsetX + rowOffset).ToString() + ", " + ((yTileIndex * _loader.TileStepY) - offsetY).ToString());
+
+                        _sub.SpriteBatch.DrawString(SysCore.SystemFont, s.ToString(),
                             new V2((xTileIndex * _loader.TileStepX) - offsetX + rowOffset + _loader.baseOffsetX + 24, (yTileIndex * _loader.TileStepY) - offsetY + _loader.baseOffsetY + 48),
                             new V4(255, 255, 255, 255),
                             0f,
-                            2.0f,
+                            1.0f,
                             0f);
                     }
 
@@ -98,7 +103,7 @@ namespace LindaEngine.Core
                                 new Rect(0, 0, _loader.TileWidth, _loader.TileHeight),
                                 new Rect(
                                     (xTileIndex * _loader.TileStepX) - offsetX + rowOffset + _loader.baseOffsetX,
-                                    (yTileIndex * _loader.TileStepY) - offsetY + _loader.baseOffsetY - (zTileIndex * _loader.HeightTileOffset),
+                                    (yTileIndex * _loader.TileStepY) - offsetY + _loader.baseOffsetY,
                                     _loader.TileWidth, _loader.TileHeight),
                                 0.0f,
                                 depthOffset);
@@ -114,7 +119,7 @@ namespace LindaEngine.Core
                                     (yTileIndex * _loader.TileStepY) - offsetY + _loader.baseOffsetY + (heightTilesCount * _loader.HeightTileOffset),
                                     _loader.TileWidth, _loader.TileHeight),
                                 0.0f,
-                                depthOffset - (_loader.heightRowDepthMod * heightTilesCount));
+                                depthOffset - (_loader.heightRowDepthMod * (heightTilesCount + zTileIndex)));
 
                             heightTilesCount++;
                         }

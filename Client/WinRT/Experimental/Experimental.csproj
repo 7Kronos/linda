@@ -137,6 +137,13 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="Assets\Fonts\Pericles6.xnb" />
+    <Content Include="Assets\Testing\Herbe1.png" />
+    <Content Include="Assets\Testing\Herbe2.png" />
+    <Content Include="Assets\Testing\Herbe3.png" />
+    <Content Include="Assets\Testing\Boue.png" />
+    <Content Include="Assets\Testing\MixBoue.png" />
+    <None Include="Assets\Fonts\Segoe.spritefont" />
+    <Content Include="Assets\Fonts\Segoe.xnb" />
     <None Include="Experimental_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
