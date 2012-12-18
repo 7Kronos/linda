@@ -3,8 +3,3 @@ C:\Projets\Linda\Server\World.Data\bin\Debug\World.Data.pdb
 C:\Projets\Linda\Server\World.Data\obj\Debug\World.Data.csprojResolveAssemblyReference.cache
 C:\Projets\Linda\Server\World.Data\obj\Debug\World.Data.dll
 C:\Projets\Linda\Server\World.Data\obj\Debug\World.Data.pdb
-C:\Projets\Linda\linda\Server\World.Data\bin\Debug\World.Data.dll
-C:\Projets\Linda\linda\Server\World.Data\bin\Debug\World.Data.pdb
-C:\Projets\Linda\linda\Server\World.Data\obj\Debug\World.Data.csprojResolveAssemblyReference.cache
-C:\Projets\Linda\linda\Server\World.Data\obj\Debug\World.Data.dll
-C:\Projets\Linda\linda\Server\World.Data\obj\Debug\World.Data.pdb

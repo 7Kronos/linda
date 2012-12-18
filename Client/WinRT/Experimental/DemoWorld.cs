@@ -59,20 +59,20 @@ namespace Experimental
                     cell.Tiles.Add(GetTile(b));
                 }
             }
-            
+
             var groundcell = world.GetAt(1, 5, 0);
-            groundcell.HeightTiles.Add(GetTile(b2));
+            groundcell.Tiles.Add(GetTile(b2));
 
-            var groundcell2 = world.GetAt(2, 4, 0);
-            groundcell2.HeightTiles.Add(GetTile(b4));
-            var groundcell3 = world.GetAt(2, 3, 0);
-            groundcell3.HeightTiles.Add(GetTile(b5));
+            //var groundcell2 = world.GetAt(2, 4, 0);
+            //groundcell2.HeightTiles.Add(GetTile(b4));
+            //var groundcell3 = world.GetAt(2, 3, 0);
+            //groundcell3.HeightTiles.Add(GetTile(b5));
 
-            var topercell = world.GetAt(1, 5, 1);
-            topercell.Tiles.Add(GetTile(b3));
+            //var topercell = world.GetAt(1, 5, 1);
+            //topercell.Tiles.Add(GetTile(b3));
 
-            var topercell2 = world.GetAt(1, 4, 1);
-            topercell2.Tiles.Add(GetTile(b3));
+            //var topercell2 = world.GetAt(1, 4, 1);
+            //topercell2.Tiles.Add(GetTile(b3));
         }
 
         public Tile GetTile(Texture2D texture)
